@@ -1,0 +1,9 @@
+# ignor Mac Specific Folder
+.DS_Store
+
+# don't sync sensor config
+config/services-welcome.cfg
+services-welcome.cfg
+
+#don't sync git deploy files
+deploy*.*
