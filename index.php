@@ -27,4 +27,11 @@ if(isset($_SERVER['HTTP_X_FORWARDED_FOR'])){
 	}
 echo "</ul>";
 
+echo "<footer>";
+$filename = 'VERSION';
+if (file_exists($filename)) {
+    echo "Server Welcome Page Version: 0.1.". file_get_contents($filename) . " (" . date ("d.m.Y H:i", filemtime($filename)) . " Uhr)";
+}
+echo "</footer>";
+
 ?>

@@ -1,6 +1,9 @@
 # ignor Mac Specific Folder
 .DS_Store
 
+# ignor github Folder
+.github
+
 # don't sync sensor config
 config/services-welcome.cfg
 services-welcome.cfg
