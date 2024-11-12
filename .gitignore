@@ -4,7 +4,7 @@
 # ignor github Folder
 .github
 
-# don't sync sensor config
+# don't sync config files
 config/services-welcome.cfg
 services-welcome.cfg
 
