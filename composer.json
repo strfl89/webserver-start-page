@@ -1,7 +1,16 @@
 {
     "name" : "strfl89/webserver-start-page",
     "description": "Simple Start Page for Servers with no productive content at root level",
+    "authors": [
+        {
+            "name": "Florian Strunk",
+            "email": "florian@strunk-media.de",
+            "homepage": "",
+            "role": "Developer"
+        }
+    ],
+    "license": "GPL-3.0-only",
     "require": {
-        "php": "8.*"
+        "php": ">=8.0"
     }
 }
