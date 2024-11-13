@@ -1,6 +1,6 @@
 {
     "name" : "strfl89/webserver-start-page",
-    "description": "Simple Start Page for Servers with no productive content at root level"
+    "description": "Simple Start Page for Servers with no productive content at root level",
     "require": {
         "php": "8.*"
     }
