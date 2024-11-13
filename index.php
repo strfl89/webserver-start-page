@@ -4,6 +4,11 @@ echo "<title>Server Welcome Page</title>";
 
 echo "<h1>Welcome on Server ".$_SERVER['HTTP_HOST']."</h1>";
 
+if (file_exists("./config/welcome-greeting.cfg")) {
+    # Include Greeting Message, if File with greeting exists
+    require_once("./config/welcome-greeting.cfg");
+    }
+
 if (file_exists("./config/services-welcome.cfg")) {
     # code...
     require_once("./config/services-welcome.cfg");
@@ -29,8 +34,9 @@ echo "</ul>";
 
 echo "<footer>";
 $filename = 'VERSION';
-if (file_exists($filename)) {
-    echo "Server Welcome Page Version: 0.1.". file_get_contents($filename) . " (" . date ("d.m.Y H:i", filemtime($filename)) . " Uhr)";
+#if (file_exists($filename)) {
+if (file_exists("VERSION")) {
+    echo "Server Welcome Page Version: 0.2.". file_get_contents($filename) . " (" . date ("d.m.Y H:i", filemtime($filename)) . " Uhr)";
 }
 echo "</footer>";
 
