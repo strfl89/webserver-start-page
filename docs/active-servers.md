@@ -1,3 +1,6 @@
 ### Servers wich use this Script
-* mgmt-pi-home
-* mgmt-pi-ulc
+
+| Name | Deployment Webhook |
+| --- | --- |
+| MGMT-Pi-Home | n8n / direct |
+| MGMT-Pi-ULC | n8n |
