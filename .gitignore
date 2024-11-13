@@ -4,6 +4,10 @@
 # ignor github Folder
 .github
 
+# ignor composer files
+/vendor/
+/composer.lock
+
 # don't sync config files
 config/services-welcome.cfg
 services-welcome.cfg
